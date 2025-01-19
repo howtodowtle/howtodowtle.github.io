@@ -1,47 +1,3 @@
-    <style>
-        .profile-section {
-            padding: 100px 0;
-            background-color: #1a1a1a;
-        }
-
-        .profile-content {
-            background-color: rgba(255, 255, 255, 0.05);
-            border-radius: 10px;
-            padding: 40px;
-            margin: 20px 0;
-        }
-
-        .profile-name {
-            margin-bottom: 40px;
-        }
-
-        .profile-name h3 {
-            font-size: 32px;
-            margin: 0;
-            color: #fff;
-        }
-
-        .profile-item {
-            margin-bottom: 30px;
-            text-align: left;
-            padding: 0 20px;
-        }
-
-        .profile-item h4 {
-            color: #fff;
-            font-size: 24px;
-            margin-bottom: 15px;
-            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-            padding-bottom: 10px;
-        }
-
-        .profile-item p {
-            color: #d4d4d4;
-            font-size: 18px;
-            line-height: 1.6;
-        }
-    </style>
-
     <!-- Athlete Profile Section -->
     <section id="profile" class="container content-section text-center profile-section">
         <div class="row">
@@ -53,23 +9,43 @@
                     </div>
                     
                     <div class="profile-item">
-                        <h4>Disciplines</h4>
-                        <p>trails (longer = better); doing road/mountain/orienteering/fitness races (Hyrox) for fun</p>
+                        <button class="profile-toggle" data-toggle="collapse" data-target="#disciplines" aria-expanded="false">
+                            Disciplines
+                            <i class="fa fa-chevron-down"></i>
+                        </button>
+                        <div id="disciplines" class="collapse">
+                            <p>trails (longer = better); doing road/mountain/orienteering/fitness races (Hyrox) for fun</p>
+                        </div>
                     </div>
                     
                     <div class="profile-item">
-                        <h4>Loves</h4>
-                        <p>technical downhills, eating, chatting with competitors, rolling hills, forests, uphills that need to be hiked, pa amb tomàquet</p>
+                        <button class="profile-toggle" data-toggle="collapse" data-target="#loves" aria-expanded="false">
+                            Loves
+                            <i class="fa fa-chevron-down"></i>
+                        </button>
+                        <div id="loves" class="collapse">
+                            <p>technical downhills, eating, chatting with competitors, rolling hills, forests, uphills that need to be hiked, pa amb tomàquet</p>
+                        </div>
                     </div>
                     
                     <div class="profile-item">
-                        <h4>Hates</h4>
-                        <p>long and gentle uphills (that need to be run), asphalt in trail races</p>
+                        <button class="profile-toggle" data-toggle="collapse" data-target="#hates" aria-expanded="false">
+                            Hates
+                            <i class="fa fa-chevron-down"></i>
+                        </button>
+                        <div id="hates" class="collapse">
+                            <p>long and gentle uphills (that need to be run), asphalt in trail races</p>
+                        </div>
                     </div>
                     
                     <div class="profile-item">
-                        <h4>Proud of</h4>
-                        <p>4 x World Championships for Germany, 2 x German Champion (Ultratrail & 100 km), 325 km stage race with/guiding blind runner Anton Luber, 2:20:52 road marathon as a trail runner</p>
+                        <button class="profile-toggle" data-toggle="collapse" data-target="#proud" aria-expanded="false">
+                            Proud of
+                            <i class="fa fa-chevron-down"></i>
+                        </button>
+                        <div id="proud" class="collapse">
+                            <p>4 x World Championships for Germany, 2 x German Champion (Ultratrail & 100 km), 325 km stage race with/guiding blind runner Anton Luber, 2:20:52 road marathon as a trail runner</p>
+                        </div>
                     </div>
                 </div>
             </div>
