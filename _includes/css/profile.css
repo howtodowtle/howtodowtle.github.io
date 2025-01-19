@@ -73,6 +73,17 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.profile-full a {
+    color: #d4d4d4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.profile-full a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
 /* Hide the preview when the section is expanded */
 .profile-toggle[aria-expanded="true"] .profile-preview {
     opacity: 0.5;
